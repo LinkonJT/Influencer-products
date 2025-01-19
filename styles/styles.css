@@ -1,9 +1,45 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
+/* body{
+  margin: 0 auto;
+  max-width: 1440px;
+} */
+
 
 .poppins-regular-font{
-    font-family: "Poppins", serif;
-    font-optical-sizing: auto;
-    font-weight: 400;
-    font-style: normal;
+  font-family: "Poppins", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* shared styles */
+
+.display-flex{
+  display: flex;
+}
+
+  .nav-bar{
+    justify-content: space-between;
+    max-width: 1440px;
+    margin: 0 auto;
   }
+
+  .brand-name{
+    font-weight: 24px;
+    margin-top: 87px;
+  }
+
+  .nav-list{
+    list-style: none;
+    gap: 34px;
+    text-decoration: none;
+    margin-top: 95px;
+    font-size: 16px;
+    font-weight: 500;
+  }
+
+  .nav-link{
+    text-decoration: none;
+  }
+
