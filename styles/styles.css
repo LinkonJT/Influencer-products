@@ -3,7 +3,7 @@
 body{
   margin: 0 auto;
   max-width: 1440px;
-  border: 2px solid blue;
+  /* border: 2px solid blue; */
 }
 /* *{
   margin: 0;
@@ -56,12 +56,15 @@ body{
 .banner{
   /* margin-top: 50px; */
   gap: 133px;
-  border: 2px solid green;
-  margin: 0 auto;
+  /* border: 2px solid green; */
+  /* margin: 0 auto; */
   justify-content: space-between;
+}
 
-  
-
+.banner-description{
+  margin-top: 74px;
+  width: 582px;
+  height: 270px;
 }
 
 .main-title{
@@ -96,8 +99,6 @@ img{
 .img-container{
   height: auto;
   margin-top: 65px;
-   
-
 }
 
 .img-behind{
@@ -114,3 +115,11 @@ right: 0px;
   top: 4px;
   
 }
+
+ /* Brand images style */
+
+ .brands{
+  margin-top: 100px;
+  width: 1110px;
+  height: 110px;
+ }
