@@ -3,8 +3,13 @@
 body{
   margin: 0 auto;
   max-width: 1440px;
+  border: 2px solid blue;
 }
-
+/* *{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+} */
 
 .poppins-regular-font{
   font-family: "Poppins", serif;
@@ -36,6 +41,7 @@ body{
     gap: 34px;
     text-decoration: none;
     margin-top: 95px;
+    margin-bottom: 80px;
     font-size: 16px;
     font-weight: 500;
   }
@@ -48,8 +54,12 @@ body{
   /* Banner Section style */
 
 .banner{
-  margin-top: 50px;
+  /* margin-top: 50px; */
   gap: 133px;
+  border: 2px solid green;
+  margin: 0 auto;
+  justify-content: space-between;
+
   
 
 }
@@ -65,6 +75,7 @@ body{
   font-weight: 500;
 }
 
+/* prebook-now button */
 .btn{
   width: 196px;
   height: 44px;
@@ -74,4 +85,32 @@ body{
   font-size: 1rem;
   color: rgba(255, 255, 255, 1);
   font-weight: bold;
+}
+
+
+
+img{
+  width: auto;
+}
+
+.img-container{
+  height: auto;
+  margin-top: 65px;
+   
+
+}
+
+.img-behind{
+width: 475px;
+height: 475px;
+position: relative;
+right: 0px;
+}
+
+.img-infront{
+  width: 440px;
+  height: 414px;
+  position: absolute;
+  top: 4px;
+  
 }
