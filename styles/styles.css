@@ -13,7 +13,6 @@
   font-style: normal;
 }
 
-
 .nav-bar-setup {
   display: flex;
   justify-content: space-between;
@@ -28,7 +27,7 @@
   /* border: 1px solid green; */
 }
 
-.nav-link-container{
+.nav-link-container {
   margin-top: 95px;
   margin-right: 120px;
   /* border: 1px solid blue; */
@@ -43,32 +42,27 @@
   font-weight: 500;
 }
 
-
 .nav-link {
   text-decoration: none;
   color: black;
 }
 
 /* Banner Section style */
-/* main{
-  margin: 0 auto;
-  
-} */
 
-.banner {
-display: flex;
-  gap: 133px;
+.banner-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 131px;
   /* border: 2px solid green; */
-  justify-content: space-around;
-  max-width: 1440px;
-  /* margin: 0 auto 69px; */
-  margin: 0 auto;
+  /* margin: 0 auto; */
 }
 
 .banner-description {
-  margin-top: 74px;
+  margin-top: 146px;
   width: 582px;
-  height: 270px;
+  margin-left: 120px;
+  /* border:1px solid blue; */
+  
 }
 
 .main-title {
@@ -78,8 +72,10 @@ display: flex;
 
 .subtitle {
   margin: 16px 77px 16px 0px;
+  width: 505px;
   font-size: 1rem;
   font-weight: 500;
+  /* border: 1px solid green; */
 }
 
 /* prebook-now button */
@@ -94,38 +90,41 @@ display: flex;
   font-weight: bold;
 }
 
-img{
-  max-width: 100%;
+img {
+  max-width: auto;
   height: auto;
 }
 
 .img-container {
   height: auto;
   margin-top: 65px;
+  margin-right: 120px;
+  border: 1px solid rgb(0, 204, 255);
+  /* width: 100%; */
 }
 
 .img-behind {
-  width: 475px;
-  height: 475px;
-  position: relative;
-  right: 0px;
+  position: relative; /* Make the parent element a positioning context */
+  width: 475px; 
+  height: 475px; 
 }
 
 .img-infront {
-  width: 440px;
-  height: 414px;
   position: absolute;
-  top: 4px;
+  width: 440px;
+  height: 417;
+  right: 130px;
+  top: 245px;
 }
 
 /* Brand images style */
 
-.brands{
+.brands {
   /* margin: 0px 165px;  */
   width: 1110px;
   height: 110px;
   box-shadow: 2px 4px 4px rgba(0, 0, 0, 0.25);
-  opacity: 100%;
+  opacity: 1000%;
   /* margin: 0 auto; */
 }
 
