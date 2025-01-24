@@ -16,6 +16,8 @@
 .nav-bar-setup {
   display: flex;
   justify-content: space-between;
+  margin: 0 auto;
+  /* max-width:1536px; */
   /* border: 1px solid red; */
 }
 
@@ -47,19 +49,22 @@
   color: black;
 }
 
-/* Banner Section style */
+/* ################# Banner Section style #####################*/
 
 .banner-container {
   display: flex;
   justify-content: space-between;
-  gap: 131px;
-  /* border: 2px solid green; */
+  gap: 133px;
+  max-width: 1536px;
+  border: 1px solid green;
   /* margin: 0 auto; */
 }
 
 .banner-description {
+
   margin-top: 146px;
-  width: 582px;
+  min-width: 582px;
+  /* min-height: 270px; */
   margin-left: 120px;
   /* border:1px solid blue; */
   
@@ -68,6 +73,7 @@
 .main-title {
   font-size: 52px;
   font-weight: 800;
+  line-height: 70px;
 }
 
 .subtitle {
@@ -90,31 +96,34 @@
   font-weight: bold;
 }
 
-img {
-  max-width: auto;
-  height: auto;
-}
-
 .img-container {
-  height: auto;
+  width: 475px; 
+  height: 475px;
   margin-top: 65px;
   margin-right: 120px;
-  border: 1px solid rgb(0, 204, 255);
-  /* width: 100%; */
+  /* border: 2px solid rgb(0, 204, 255); */
 }
 
 .img-behind {
-  position: relative; /* Make the parent element a positioning context */
-  width: 475px; 
-  height: 475px; 
+  position: relative;
+  object-fit: cover;
+  /* border: 1px red solid; */
 }
 
 .img-infront {
   position: absolute;
-  width: 440px;
-  height: 417;
-  right: 130px;
-  top: 245px;
+  /* top: 8%;
+   */
+   top: 27px;
+   left: 33px;
+  /* width: 440px;
+  height: 417px; */
+  object-fit: cover;
+  /* right: 130px;
+  top: 245px; 
+
+  /* margin: 27px 33px 31px 2px; */
+  /* border: 1px yellowgreen solid; */
 }
 
 /* Brand images style */
